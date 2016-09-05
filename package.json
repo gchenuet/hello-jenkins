@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "eslint-init": "eslint --init",
     "lint": "eslint test/test.js",
     "ci-lint": "eslint -f checkstyle test/test.js"
   },
